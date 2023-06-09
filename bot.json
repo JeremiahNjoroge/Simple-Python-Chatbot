@@ -2,37 +2,61 @@
   {
     "response_type": "greeting",
     "user_input": ["hello", "hi", "hey"],
-    "bot_response": "Hey there!",
+    "bot_response": "Hey there!👋",
     "required_words": []
   },
   {
-    "response_type": "greeting",
-    "user_input": ["see you", "goodbye", "bye"],
-    "bot_response": "See you later!",
+    "response_type": "bot details",
+    "user_input": ["Who","describe","yourself"],
+    "bot_response": "I am simple Python chatbot developed using Python 3.11.1. I use a json file to store responses which is my training set. My creator is Jeremiah Njoroge(https://github.com/JeremiahNjorogehttps://github.com/JeremiahNjoroge) ",
     "required_words": []
   },
   {
-    "response_type": "greeting",
-    "user_input": ["nice", "to", "meet", "you"],
-    "bot_response": "The pleasure is all mine!",
-    "required_words": ["nice", "meet", "you"]
+    "response_type": "task",
+    "user_input": ["write", "simple", "python","program"],
+    "bot_response": "Here is a simple python program🐍:\n\n'''python\nprint('Hello, World!')\n'''",
+    "required_words": ["python","program"]
   },
   {
     "response_type": "question",
-    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
-    "bot_response": "Start by typing: 'How to learn coding' on Google.",
-    "required_words": ["learn", "code"]
+    "user_input": ["What","programming","languages","do","you","know"],
+    "bot_response": "I love programming and my favourite languages are Python, C++, HTML, Java, Javascript, PHP",
+    "required_words": ["programming","languages"]
   },
   {
-    "response_type": "question",
-    "user_input": ["refund", "how", "can", "I", "get"],
-    "bot_response": "We don't offer refunds for free education.",
-    "required_words": ["refund", "i"]
+    "response_type": "task",
+    "user_input": ["write", "simple", "c++", "program"],
+    "bot_response": "Here is a simple C++ program:\n\n```cpp\n#include <iostream>\n\nint main() {\n    std::cout << \"Hello, World!\" << std::endl;\n    return 0;\n}\n```",
+    "required_words": ["c++","program"]
   },
   {
-    "response_type": "question",
-    "user_input": ["how", "are", "you"],
-    "bot_response": "I'm great! Thanks for asking.",
-    "required_words": ["how", "are", "you"]
+    "response_type": "task",
+    "user_input": ["write", "simple", "html", "code"],
+    "bot_response": "Here is a simple HTML code snippet:\n\n```html\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Welcome Page</title>\n</head>\n<body>\n    <h1>Hello, World!</h1>\n    <p>This is a simple HTML page.</p>\n</body>\n</html>\n```",
+    "required_words": ["html","code"]
+  },
+  {
+    "response_type": "task",
+    "user_input": ["write", "simple", "java", "program"],
+    "bot_response": "Here is a simple Java program:\n\n```java\npublic class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}\n```",
+    "required_words": ["java","program"]
+  },
+  {
+    "response_type": "task",
+    "user_input": ["write", "simple", "javascript", "code"],
+    "bot_response": "Here is a simple JavaScript code snippet:\n\n```javascript\nconsole.log('Hello, World!');\n```",
+    "required_words": ["javascript","code"]
+  },
+  {
+    "response_type": "task",
+    "user_input": ["write", "simple", "php", "code"],
+    "bot_response": "Here is a simple PHP code snippet:\n\n```php\n<?php\n    echo 'Hello, World!';\n?>\n```",
+    "required_words": ["php","code"]
+  },
+  {
+    "response_type":"question",
+    "user_input": ["How","is","your","day","?"],
+    "bot_response": "I feel good today. Happy to have a conversation with you😀",
+    "required_words":["how","is","day"]
   }
 ]
