@@ -1,4 +1,4 @@
-# JSON Chat Bot
+# Simple python chatbot
 A simple Python chat bot.
 I am building a simple chatbot that stores its responses in a json file https://github.com/JeremiahNjoroge/Simple-Python-Chatbot/blob/main/bot.json
 If the user input is unrecognizable it, returns a random response from https://github.com/JeremiahNjoroge/Simple-Python-Chatbot/blob/main/random_responses.py
